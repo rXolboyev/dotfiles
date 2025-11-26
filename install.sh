@@ -20,8 +20,7 @@ PACMAN_PACKAGES=(
 
     # Personal packages
     firefox-developer-edition vivaldi
-    cosmic-files cosmic-settings
-    neovim zed obsidian helix
+    neovim zed helix
     copyq satty kooha swww
     ghostty
     sudo-rs
@@ -36,7 +35,7 @@ PACMAN_PACKAGES=(
 
 # AUR packages
 AUR_PACKAGES=(
-    waybar-module-pacman-updates-git beautyline
+    beautyline
     waypaper-git
 )
 
@@ -46,7 +45,6 @@ AUR_PACKAGES=(
 
 # Congigurations under .config folder
 CONFIG_FOLDER=(
-    "cosmic"
     "fish"
     "fuzzel"
     "ghostty"

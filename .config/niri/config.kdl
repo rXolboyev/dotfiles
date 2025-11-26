@@ -386,7 +386,7 @@ binds {
     Mod+B { spawn "firefox-developer-edition"; }
     Mod+Alt+B { spawn "vivaldi"; }
     Mod+Semicolon { spawn "fuzzel"; }
-    Mod+Alt+E { spawn "cosmic-files"; }
+    Mod+Alt+E { spawn "nautilus"; }
     Mod+Alt+C { spawn "copyq" "toggle"; }
     Mod+Alt+P { spawn "hyprpicker" "-a"; }
     Mod+Alt+Y { spawn "chromium"; }
