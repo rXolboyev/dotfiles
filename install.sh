@@ -21,16 +21,16 @@ PACMAN_PACKAGES=(
     # Personal packages
     firefox-developer-edition vivaldi
     neovim zed helix
-    copyq satty kooha swww
+    copyq satty swww
     ghostty
-    sudo-rs
-    fish exa fzf ripgrep zoxide starship lazygit zellij btop bat
+    fish exa fzf ripgrep zoxide starship lazygit btop bat
     yazi 7zip jq resvg fd imagemagick poppler
     mpv
     tlp
-    snapper btrfs-assistant snap-pac
     npm
-    iptables-nft ufw
+    iptables-nft
+    nwg-look kvantum kvantum-qt5 kvantum-theme-materia qt5ct qt6ct qt5-graphicaleffects qt6-5compati
+    telegram-desktop
 )
 
 # AUR packages
@@ -66,6 +66,7 @@ CONFIG_FOLDER=(
 HOME_DIR=(
     ".bashrc"
     ".themes"
+    ".icons"
 )
 
 # ----------------------------------------------------------
@@ -182,8 +183,6 @@ enable_services() {
         reflector.timer
         fstrim.timer
         tlp.service
-        snapper-cleanup.timer
-        snapper-timeline.timer
     )
 
     for svc in "${services[@]}"; do
