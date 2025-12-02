@@ -20,7 +20,7 @@ PACMAN_PACKAGES=(
 
     # Personal packages
     firefox-developer-edition vivaldi
-    neovim zed helix
+    neovim zed
     copyq satty swww
     ghostty
     fish exa fzf ripgrep zoxide starship lazygit btop bat
