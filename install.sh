@@ -29,7 +29,7 @@ PACMAN_PACKAGES=(
     tlp
     npm
     iptables-nft
-    nwg-look kvantum kvantum-qt5 kvantum-theme-materia qt5ct qt6ct qt5-graphicaleffects qt6-5compati
+    nwg-look kvantum kvantum-qt5 kvantum-theme-materia qt5ct qt6ct qt5-graphicaleffects qt6-5compat
     telegram-desktop
 )
 
